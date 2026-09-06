@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main App -->
+    <div class="container">
+
+        <!-- Header -->
+        <header>
+            <h1>My Todo List</h1>
+            <p>Organize your tasks and get things done.</p>
+        </header>
+
+
+        <!-- Add Task Section -->
+        <div class="add-task">
+
+            <input
+                type="text"
+                id="todoInput"
+                placeholder="Enter a new task..."
+            >
+
+            <button id="addBtn">
+                Add Task
+            </button>
+
+        </div>
+
+
+        <!-- Todo List Header -->
+        <div class="list-header">
+
+            <h2>Tasks</h2>
+
+            <span id="taskCount">
+                0 tasks
+            </span>
+
+        </div>
+
+
+        <!-- Todo List -->
+        <ul id="todoList">
+
+            <!-- JavaScript will add tasks here -->
+
+        </ul>
+
+
+        <!-- Empty List Message -->
+        <div id="emptyMessage">
+
+            <p>No tasks yet.</p>
+            <p>Add your first task above!</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
+
